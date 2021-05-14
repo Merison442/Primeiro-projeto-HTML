@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Title = Nome da página acessada pelo cliente. -->
+  <title>INSS</title>
+  <a name="top"></a>
+  
+</head>
+
+<body>
+
+<!-- <form>= Usa-se quando for construir formulários preenchiveis.-->
+<!-- Tag- Toda tag tem atributos. -->
+<!-- elementos genéricos.
+ * div-agrupar conteúdos.
+ * span-agrupar textos (muito bom para usar com javascript e CSS), em linhas. 
+  ex:  
+    <span> Camiseta </span>
+    <span> R$ 99,00 </span>
+  -->
+  
+<div>
+  <!-- <p>= parágrafo/saltar linha.-->
+ 
+   <h1>Bem vindo a interface inicial do <a href="https://meu.inss.gov.br/central/#/login" target="_blank" title="Login gov" <strong>INSS!</strong></a></h1> 
+
+  <!-- Tag <em> para dar ênfase em itálico, Strong= negrito, &nbsp= espaço(de parágrafo ou não), BR= break page. -->
+  
+  <p> Mérison Arilano <br>
+  <strong> Brasília/DF </strong>
+  </p>
+  
+  <div class="apresentação">m
+     Lorem ipsum dolor sit amet consectetur adipisicing Saepe deleniti libero ipsam ut voluptates reprehenderit, aliquam non sint recusandae aperiam nam quam earum. Non, molestias quae <br> at modi fuga autem! 
+  </div>
+</div>
+
+<!-- Ol-lista ordenada(com números); Ul-lista não ordenada(sem núneros); usa-se o <li>para ordenar. -->
+  <ul>
+    <li>2 ovos</li>
+    <li>1 xícara de açúcar</li>
+    <li>1 colher de fermento</li>
+    <li>1 xícara de óleo</li>
+    <li>1 pacote de Farinha de trigo</li>
+    </ul>    
+<!-- dl-Listas de descrição, dt-termo de descrição, dd-descrição da lista.  -->
+<dl> 
+  <p>Modo de preparo</p>
+  <dt>Unte a fôrma com óleo ou margarina</dt>
+  <dd>mas antes aqueça o forno por 30 minutos</dd>
+</dl>
+
+<!-- address= especificar o autor/contato de quem fez a página html. -->
+<!-- Abbr= usado para abreviações, quando descansar o mouse em cima. -->
+&nbsp; <abbr title="linguagem de programação">HTML</abbr> 
+
+<!-- Cite (cita com aspas)= usado para falar de onde veio no código.-->
+<!-- usa-se <q> + cite para fazer citações.-->
+  <P> &nbsp; <abbr title="Documentação para programadores"> Bootstrap</abbr></P>
+ &nbsp; Este site - está <q cite="https://getbootstrap.com/docs/5.0/getting-started/introduction/">sendo construido sem o Bootstrap.</q> <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank">Bootstrap Página inicial</a>.
+
+ <!-- No a href="": 
+    -download =  leva a página/imagem/vídeo do link e faz o download da mesma.
+    -target="":
+        - _self (padrão)
+        - _blank = leva o usúario ao link abrindo uma nova aba no navegador. -->
+  <ul>
+    <li><a href="https://google.com" target="_blank"> Website</a></li>
+    <li><a href="mailto:titandamortebr@gmail.com">Email</a></li>
+    <li><a href="tel:+5561983163911" target="_blank">Telefone</a></li>
+  </ul>
+<!-- Fragmento= ao clicar vai para o nome do destino, pode se usar href ou name. -->
+<p>Saiba mais</p> 
+<ul>
+ <a href="#sobre">Sobre</a> <br>
+  <a href="#começo">Meu início</a> <br>
+  <a href="#pensamento">Meu densenvolvimento</a>
+</ul>
+<h1 id="sobre">Sobre Mim</h1>
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus ex autem architecto doloribus veniam corporis! Unde mollitia reprehenderit natus, ea quidem impedit eligendi alias facilis dignissimos aspernatur suscipit consequuntur aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio dignissimos minima explicabo natus ipsa autem nesciunt maxime? Hic velit tenetur vel libero ab, fugit quibusdam qui exercitationem dignissimos, cumque blanditiis.
+
+<h2 id="começo"> Como comecei em programação</h2>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae sit eveniet rerum itaque ad, animi cum doloremque asperiores? Impedit dolorem velit beatae nisi praesentium, deleniti cupiditate debitis labore ipsam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates aliquid doloremque nisi, tempora nobis dolores excepturi! Impedit animi, nemo soluta ipsa, magni consectetur repudiandae consequuntur rem eos quia omnis beatae!
+
+<h3 id="pensamento">O que eu achava de programação?</h3>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quibusdam, rem quos maiores sunt ad vitae saepe est facilis earum debitis, voluptatibus eos deserunt accusantium quam asperiores dignissimos, natus dolor! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, recusandae assumenda sed blanditiis ea fugiat esse harum natus qui alias id, veritatis aut quos facilis suscipit nam mollitia, quo eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quos, dolore pariatur mollitia non repudiandae officiis ipsum enim iusto quae soluta sit quo eaque autem reiciendis nemo delectus illo natus.
+
+ <!-- pre= Blocos de código, essa tag mantém os espaços em brancos e recuos que colocar no código.-->
+<!-- code= partes genéricas do código.-->
+<pre>
+  <code>
+     xablau era cego, começou a andar
+           até que começou a ver dnv também
+  </code>
+</pre>
+
+<!--Tabelas: tr-linhas da tabela, th-cabeçalho/colunas, td-conteúdo das colunas, thead-onde fica o "cabeçalho" da página, tbody-onde fica o restante do "corpo" da tabela, tfoot-rodapé, caption-descrever o que a tabela está fazendo,  -->
+<table>
+<caption> Pessoas por Idade </caption>
+<thead>
+  <tr>
+    <th>Nome</th>
+    <th>Idade</th>
+  </tr>
+</thead>
+
+<tbody>
+  <tr>
+    <td>Mérison</td>
+    <td>17</td>
+    </tr>
+    
+    <tr>
+      <td>Biny</td>
+      <td>17</td>
+    </tr>
+</tbody>
+
+</table>
+
+<p><a href="#top">back to the top</a></p>
+<p><a href="tables.html"> <cite>Tabelas</cite> </a></p>
+
+</body>
+
+
+</script>
+</html>
