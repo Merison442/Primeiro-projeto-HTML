@@ -50,14 +50,15 @@
   </div>
 
   <!-- Ol-lista ordenada(com números); Ul-lista não ordenada(sem núneros); usa-se o <li>para ordenar. -->
-  <ul>
+  <div class="ingredientes">
+    <ul>
     <li>2 ovos</li>
     <li>1 xícara de açúcar</li>
     <li>1 colher de fermento</li>
     <li>1 xícara de óleo</li>
     <li>1 pacote de Farinha de trigo</li>
   </ul>
-
+  </div>
   <!-- dl-Listas de descrição, dt-termo de descrição, dd-descrição da lista.  -->
   <dl>
     <p>Modo de preparo</p>
@@ -128,6 +129,11 @@
   <!--Tabelas: tr-linhas da tabela, th-cabeçalho/colunas, td-conteúdo das colunas, thead-onde fica o "cabeçalho" da página, tbody-onde fica o restante do "corpo" da tabela, tfoot-rodapé, caption-descrever o que a tabela está fazendo,  -->
   <table>
     <caption> Pessoas por Idade </caption>
+    <colgroup> 
+      <col span="1" style="background-color: rgb(130, 207, 130);">
+      <col span="1" style="background-color: mediumseagreen;">
+      
+    </colgroup>
     <thead>
       <tr>
         <th>Nome</th>
@@ -146,13 +152,19 @@
         <td>17</td>
       </tr>
     </tbody>
-
+   
   </table>
 
   <p><a href="#top">back to the top</a></p>
   <p><a href="tables.html"><em>Tabelas</em></a></p>
 
-  <script src="./scripts.js"></script>
+  <script>
+
+    console.log({
+      name: "Mérison"
+    })
+
+</script>    
 
 </body>
 
