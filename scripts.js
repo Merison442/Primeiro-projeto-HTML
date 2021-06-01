@@ -14,4 +14,14 @@
 // Object- propriedades e funcionalidades
 // { propriedade: "valor"}
 
-console.log(33)
+// Array
+// *Uma lista
+// *Agrupamento de Dados
+
+console.log(["Mexsor" , 18])
+
+// 3 Palavras reservadas para se criar uma variável
+
+// *const
+// *var
+// *let
