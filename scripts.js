@@ -23,5 +23,9 @@ console.log(["Mexsor" , 18])
 // 3 Palavras reservadas para se criar uma variável
 
 // *const
-// *var
+// *var ( geralmente evitasse muito usar essa variável )
 // *let
+
+// var é global e local, e poderá ser usada fora de um escopo de bloco. 
+// escopo- determina a visibilidade de alguma variável no JS
+// Block statement- sempre cria um novo escopo
