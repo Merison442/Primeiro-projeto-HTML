@@ -18,7 +18,12 @@
 // *Uma lista
 // *Agrupamento de Dados
 
-console.log(["Mexsor" , 18])
+name = "Mérison"
+
+let age, isHuman
+age = 18
+isHuman = true
+console.log('o '+ name +' tem '+ age +' anos' )
 
 // 3 Palavras reservadas para se criar uma variável
 
