@@ -132,7 +132,7 @@
     <colgroup> 
       <col span="1" style="background-color: rgb(130, 207, 130);">
       <col span="1" style="background-color: mediumseagreen;">
-      
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quia velit sint soluta cupiditate, ex quo perspiciatis error dignissimos maxime nemo temporibus obcaecati, doloribus odit, animi pariatur debitis voluptatum excepturi.
     </colgroup>
     <thead>
       <tr>
@@ -160,12 +160,34 @@
 
   <script>
 
-    console.log({
-      name: "Mérison"
-    })
+// concatenando valores/variáveis
 
-    console.log(["Mexsu" , 
-    18])
+name = "Mérison"
+
+// Agrupando declarações
+let age, isHuman
+age = 18
+isHuman = true
+console.log('O '+ name +' tem '+ age +' anos' )
+
+// Interpolando valores
+
+let baskhara1, baskhara2, delta, a, b, c
+
+
+a = 1
+b = 7
+c = 0 
+delta = Math.pow(b, 2)- 4*a*c
+
+baskhara1 = (-b + Math.sqrt(delta) ) / 2*a
+baskhara2 = (-b - Math.sqrt(delta) ) / 2*a
+
+
+console.log(`x' = ${baskhara1}, x" = ${baskhara2}`)
+
+
+
 </script> 
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
