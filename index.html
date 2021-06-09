@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="img/guialogo.png">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
 
   <!-- Title = Nome da página acessada pelo cliente. -->
   <title>INSS</title>
@@ -157,6 +157,7 @@
 
   <p><a href="#top">back to the top</a></p>
   <p><a href="tables.html"><em>Tabelas</em></a></p>
+  <p><a href="exercíciorocket.html"> Exercícios </a></p>
 
   <script>
 
@@ -189,15 +190,6 @@ console.log(`x' = ${baskhara1}, x" = ${baskhara2}`)
 
 
 </script> 
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script>
-var $jscomp=$jscomp||{};$jscomp.scope={};$jscomp.createTemplateTagFirstArg=function(a){return a.raw=a};$jscomp.createTemplateTagFirstArgWithRaw=function(a,b){a.raw=b;return a};var origin=window.location.host,alreadyAssess;
-$(document).ready(function(){$.ajax({url:"http://10.120.48.53:3001/avaliate/"+origin,type:"get",dataType:"json",success:function(a){$.map(a,function(b){(alreadyAssess=b.assess)?$("#popup","popupdarkbg").remove():$(function(){$("<div id='popup'><iframe id='popupiframe'></iframe></div>").appendTo("body");$("<div id='popupdarkbg'></div>").appendTo("body");$("#popup").css({display:"none",position:"fixed",top:"12%",left:"35%",width:"550px",height:"375px","z-index":"99999","border-radius":"2px"});$("#popupiframe").css({width:"100%",
-height:"100%",border:"0",top:"12%",left:"35%",padding:"2rem","margin-top":"1rem"});$("#popupdarkbg").css({position:"fixed","z-index":"9999",left:"0",top:"0",width:"100%",height:"100%",overflow:"hidden","background-color":"rgba(0,0,0,0.75)",display:"none"})})})}});setTimeout(function(){$("#popup").css("display","block");$("#popupdarkbg").css("display","block");$("#popupiframe").attr("src","http://10.120.48.53:3000/assess/"+origin);$("#popupdarkbg").on("click",function(){$("#popup").css("display","none");
-$("#popupdarkbg").css("display","none")});return!1},1E3);window.onkeydown=function(a){27==a.keyCode&&($("#popup").css("display","none"),$("#popupdarkbg").css("display","none"),a.preventDefault())}});
-</script>
-
 
 
 </body>
