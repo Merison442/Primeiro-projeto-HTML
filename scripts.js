@@ -14,16 +14,19 @@
 // Object- propriedades e funcionalidades
 // { propriedade: "valor"}
 
-// Array
-// *Uma lista
-// *Agrupamento de Dados
+// Array []
+// Uma lista
+// Agrupamento de Dados
 
 name = "Mérison"
 
 let age, isHuman
 age = 18
 isHuman = true
-console.log('o '+ name +' tem '+ age +' anos' )
+
+// concatenando variáveis - console.log('o '+ name +' tem '+ age +' anos' )
+//  Interpolando variáveis - console.log(`o ${name} tem ${age} anos`)
+
 
 // 3 Palavras reservadas para se criar uma variável
 
