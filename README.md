@@ -1,2 +1,2 @@
 
-<img scr="img/HTML1.png">
+<img scr="HTML1.png">
